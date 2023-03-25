@@ -48,6 +48,8 @@ public class Empresa extends HttpServlet {
 		out.println("</body>");
 		out.println("</html>");		
 		
+		System.out.println("Nome da empresa: " + nome);
+		
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
